@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: q9KJa9JTHfXxtLGbK0h4FHOQ+Z6iBAfp5PPPCFjgPOhn5AftcP0kawWork3vWbjbJQKs4KzSFuo1uQA7Q0H16qVujBCyf7BRg6T/HkgC/s2o7yWHZA5yXvRlxmAYwdyzQOO/Qv7Y7O/0CARUJv4VHaQ72BZuHn7l8x4REegZRJ6U7InuO2q+FBcAXMlRufcSYyJbxb3Ags7kUhwC/jGePiICzW4DY5EtWeNmdhiYyFN/NglkIl5+/LUOacogKo1OxFRargRlbZeFG79Z6R9cXbjrg4LGwqGdUjdyQKwuCqjSSJCSsA3okbczTYy2t2ig/E96Q+oLe8Ju6ejufS7Z/TD0DNMXJhb0MDNUxOCcf4YNWu0Rd849g9WoLa4vJd+4CPewKRX+so1x+24yq8gC57nauJiPJYBscXxpVDhxcAz4QJdbxeycfN0qmsLvqtXqsYb5V3D9yonMY41+yM8daaS78OUg2wQf0jpwPRVva0uTnBZqGA4t/6POnQ+0SrmKp3qdbw9KD9GgVliVVtSiBL4eFUZOsD4mySOaL4TMVG4TJCztQ/sm2XKGMzGBLr+whmAR8Svjnm8QYasAYG+HhSBAjVDTBTfJUlXrJx5zQFEH8e+I7NDDZepG2m45D2bvX3H+LxxIlkg0oze+leAefvsjn6yoxbSu0IHEoK/aGdU=
+  app: arcane-mountain-34639
+  on:
+    repo: vcordero07/node-shopping-list-integration-tests
